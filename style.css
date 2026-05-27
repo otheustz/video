@@ -1,0 +1,44 @@
+*{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.video{
+    margin: 0;
+    padding: 0;
+    border-radius: 100%;
+    box-shadow: white;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes newOrleansGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(45deg, #ffffff, #000000, #6b4705, #000000);
+    background-size: 400% 400%;
+    animation: newOrleansGradient 15s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+}
+
+
